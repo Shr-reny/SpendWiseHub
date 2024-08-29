@@ -100,7 +100,7 @@ const ModelForm = ({transaction, onClose, isShow}) => {
               >
                 <option value="">Choose...</option>
                 <option value="credit">Credit</option>
-                <option value="expense">Expense</option>
+                <option value="expense">Debit</option>
               </Form.Select>
             </Form.Group>
 

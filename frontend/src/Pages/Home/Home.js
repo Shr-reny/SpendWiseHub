@@ -216,7 +216,7 @@ const Home = () => {
                     onChange={handleSetType}
                   >
                     <option value="all">All</option>
-                    <option value="expense">Expense</option>
+                    <option value="expense">Debit</option>
                     <option value="credit">Earned</option>
                   </Form.Select>
                 </Form.Group>
@@ -315,7 +315,7 @@ const Home = () => {
                         >
                           <option value="">Choose...</option>
                           <option value="credit">Credit</option>
-                          <option value="expense">Expense</option>
+                          <option value="expense">Debit</option>
                         </Form.Select>
                       </Form.Group>
 

@@ -220,7 +220,7 @@ const TableData = (props) => {
                                   >
                                     <option value={editingTransaction[0].transactionType}>{editingTransaction[0].transactionType}</option>
                                     <option value="Credit">Credit</option>
-                                    <option value="Expense">Expense</option>
+                                    <option value="Expense">Debit</option>
                                   </Form.Select>
                                 </Form.Group>
 
